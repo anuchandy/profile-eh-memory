@@ -12,7 +12,7 @@ public class PublisherFactory {
     }
 
     /**
-     *  @return a publisher backed by track1 reactor based eventhubs library.
+     *  @return a publisher backed by track2 reactor based eventhubs library.
      */
     public static PublisherInterface createT2() {
         return new PublisherT2Impl();
